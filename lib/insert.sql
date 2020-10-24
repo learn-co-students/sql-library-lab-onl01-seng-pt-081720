@@ -1,0 +1,2 @@
+INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1, "The Children of Hurin", 1, 1), (2, "The Hobbit", 2, 2); 
+INSERT INTO books (id, title, year, series_id) VALUES (1, "Game of Thrones", 1996, 1), (2, "A Clash of Titans", 1999, 2);
