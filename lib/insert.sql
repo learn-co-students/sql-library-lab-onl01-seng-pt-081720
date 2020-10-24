@@ -1,2 +1,3 @@
-INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1, "The Children of Hurin", 1, 1), (2, "The Hobbit", 2, 2); 
-INSERT INTO books (id, title, year, series_id) VALUES (1, "Game of Thrones", 1996, 1), (2, "A Clash of Titans", 1999, 2);
+INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1, "A Song of Ice and Fire", 1, 1), (2, "The Lord of the Rings", 2, 2); 
+INSERT INTO books (id, title, year, series_id) VALUES (1, "Game of Thrones", 1996, 1), (2, "A Clash of Titans", 1999, 1), (3, "A Storm of Words", 2000, 1), (4, "The Fellowship of the Ring", 2005, 2), (5, "A Dance with Dragons", 2011, 2), (6, "The Winds of Winter", 2021, 2);
+INSERT INTO characters (id, name, species, motto, author_id) VALUES (1, "Jon Snow", "human", "I know nothing", 1)

@@ -27,8 +27,8 @@ character_id INTEGER
 CREATE TABLE characters (
 id INTEGER PRIMARY KEY,
 name TEXT,
+motto TEXT
 species TEXT,
-motto TEXT,
 author_id TEXT);
 
 
